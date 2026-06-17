@@ -267,7 +267,6 @@
 </head>
 <body>
 
-    <!-- HERO HEADER -->
     <header>
         <div class="container">
             <h1>Hello, I'm <span>D'Andre Burton </span></h1>
@@ -277,11 +276,8 @@
 
     <div class="container">
 
-        <!-- ABOUT ME & INTERACTIVE PHOTO -->
         <section class="profile-card">
-            <!-- Interactive Element: Image with CSS/JS hover effects -->
             <div class="image-container" id="profileImage" onclick="triggerSecret()">
-                <!-- Replace with your actual image link -->
                 <img src="https://via.placeholder.com/180" alt="Your Profile Picture" class="profile-img">
                 <div class="image-overlay">Click Me for a Surprise!</div>
             </div>
@@ -299,12 +295,10 @@ When I am not coding or designing components, you can find me exploring advanced
             </div>
         </section>
 
-        <!-- REQUIRED STEM LINKS -->
         <h2 class="section-title">Core STEM Shortcuts</h2>
         <p class="section-subtitle">Quick access to my required class benchmarks and repositories.</p>
         
         <div class="stem-links-bar">
-            <!-- Replace "#" with your actual links -->
             <a href="https://github.com/dbthegoat123" target="_blank" class="stem-btn">
                 <i>🐙</i> &nbsp; GitHub Profile
             </a>
@@ -315,3 +309,36 @@ When I am not coding or designing components, you can find me exploring advanced
                 <i>📱</i> &nbsp; Code.org AP CSP App
             </a>
         </div>
+
+        <h2 class="section-title">Going Beyond</h2>
+        <p class="section-subtitle">Independent research, technical exploration, and side engineering initiatives.</p>
+        
+        <div class="project-grid">
+            <div class="project-card">
+                <div>
+                    <span class="tag">Hardware</span>
+                    <h3>Mechatronics Integration</h3>
+                    <p>Exploring the communication interface between microcontrollers and mechanical systems. Focusing on sensory feedback loops and programming automated micro-movements.</p>
+                </div>
+                <a href="#" class="project-link">View Documentation &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <div>
+                    <span class="tag">Design</span>
+                    <h3>Generative CAD Design</h3>
+                    <p>Studying advanced structural optimization techniques in Onshape to maximize component durability while minimizing overall material mass and weight distribution.</p>
+                </div>
+                <a href="#" class="project-link">View Models &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function triggerSecret() {
+            alert("Welcome to D'Andre's STEM Journey! Keep exploring to see engineering in action.");
+        }
+    </script>
+</body>
+</html>
